@@ -1,5 +1,4 @@
-require_relative "../lib/kid.rb"
-require_relative "../lib/dancer.rb"
+
 require_relative '../lib/fancy_dance.rb'
 
 puts Kid.metadata
@@ -10,9 +9,8 @@ angelina.twirl
 
 angelina.jump
 
- 
+
 buster = Kid.new
 buster.jump
 
 buster.take_a_bow
-
